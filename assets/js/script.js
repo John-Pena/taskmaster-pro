@@ -144,7 +144,7 @@ $(".list-group").on("blur", "input[type='text']", function() {
   // replace input with span element
   $(this).replaceWith(taskSpan);
 });
-
+// edit task code ends
 
 // modal was triggered
 $("#task-form-modal").on("show.bs.modal", function() {
