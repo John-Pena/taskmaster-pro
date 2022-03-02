@@ -146,6 +146,7 @@ $(".list-group").on("blur", "input[type='text']", function() {
 });
 // edit task code ends
 
+
 // modal was triggered
 $("#task-form-modal").on("show.bs.modal", function() {
   // clear values
